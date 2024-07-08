@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GIT\\Dungeon_Crawler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|c:\\git\\dungeon_crawler\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|c:\\git\\dungeon_crawler\\game_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|solutionrelative:game_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|c:\\git\\dungeon_crawler\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|c:\\git\\dungeon_crawler\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|solutionrelative:weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|c:\\git\\dungeon_crawler\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|c:\\git\\dungeon_crawler\\iusable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|solutionrelative:iusable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|c:\\git\\dungeon_crawler\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|c:\\git\\dungeon_crawler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|c:\\git\\dungeon_crawler\\imovable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|solutionrelative:imovable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|c:\\git\\dungeon_crawler\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BBD7C3-6B50-44BA-9D5B-4E1A1E8E71A9}|Dungeon_Crawler.csproj|solutionrelative:entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GIT\\Dungeon_Crawler\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\GIT\\Dungeon_Crawler\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:26:05.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game_Manager.cs",
+              "DocumentMoniker": "C:\\GIT\\Dungeon_Crawler\\Game_Manager.cs",
+              "RelativeDocumentMoniker": "Game_Manager.cs",
+              "ToolTip": "C:\\GIT\\Dungeon_Crawler\\Game_Manager.cs",
+              "RelativeToolTip": "Game_Manager.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:26:40.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMovable.cs",
+              "DocumentMoniker": "C:\\GIT\\Dungeon_Crawler\\IMovable.cs",
+              "RelativeDocumentMoniker": "IMovable.cs",
+              "ToolTip": "C:\\GIT\\Dungeon_Crawler\\IMovable.cs",
+              "RelativeToolTip": "IMovable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:43:35.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\GIT\\Dungeon_Crawler\\Entity.cs",
+              "RelativeDocumentMoniker": "Entity.cs",
+              "ToolTip": "C:\\GIT\\Dungeon_Crawler\\Entity.cs",
+              "RelativeToolTip": "Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:27:52.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\GIT\\Dungeon_Crawler\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\GIT\\Dungeon_Crawler\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:29:11.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\GIT\\Dungeon_Crawler\\Enemy.cs",
+              "RelativeDocumentMoniker": "Enemy.cs",
+              "ToolTip": "C:\\GIT\\Dungeon_Crawler\\Enemy.cs",
+              "RelativeToolTip": "Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:33:16.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUsable.cs",
+              "DocumentMoniker": "C:\\GIT\\Dungeon_Crawler\\IUsable.cs",
+              "RelativeDocumentMoniker": "IUsable.cs",
+              "ToolTip": "C:\\GIT\\Dungeon_Crawler\\IUsable.cs",
+              "RelativeToolTip": "IUsable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:43:47.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\GIT\\Dungeon_Crawler\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "C:\\GIT\\Dungeon_Crawler\\Item.cs",
+              "RelativeToolTip": "Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:42:57.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\GIT\\Dungeon_Crawler\\Weapon.cs",
+              "RelativeDocumentMoniker": "Weapon.cs",
+              "ToolTip": "C:\\GIT\\Dungeon_Crawler\\Weapon.cs",
+              "RelativeToolTip": "Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:45:40.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Map.cs",
+              "DocumentMoniker": "C:\\GIT\\Dungeon_Crawler\\Map.cs",
+              "RelativeDocumentMoniker": "Map.cs",
+              "ToolTip": "C:\\GIT\\Dungeon_Crawler\\Map.cs",
+              "RelativeToolTip": "Map.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:49:03.808Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

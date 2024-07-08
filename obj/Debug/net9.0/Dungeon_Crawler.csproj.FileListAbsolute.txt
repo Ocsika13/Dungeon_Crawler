@@ -1,0 +1,15 @@
+C:\GIT\Dungeon_Crawler\bin\Debug\net9.0\Dungeon_Crawler.exe
+C:\GIT\Dungeon_Crawler\bin\Debug\net9.0\Dungeon_Crawler.deps.json
+C:\GIT\Dungeon_Crawler\bin\Debug\net9.0\Dungeon_Crawler.runtimeconfig.json
+C:\GIT\Dungeon_Crawler\bin\Debug\net9.0\Dungeon_Crawler.dll
+C:\GIT\Dungeon_Crawler\bin\Debug\net9.0\Dungeon_Crawler.pdb
+C:\GIT\Dungeon_Crawler\obj\Debug\net9.0\Dungeon_Crawler.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\Dungeon_Crawler\obj\Debug\net9.0\Dungeon_Crawler.AssemblyInfoInputs.cache
+C:\GIT\Dungeon_Crawler\obj\Debug\net9.0\Dungeon_Crawler.AssemblyInfo.cs
+C:\GIT\Dungeon_Crawler\obj\Debug\net9.0\Dungeon_Crawler.csproj.CoreCompileInputs.cache
+C:\GIT\Dungeon_Crawler\obj\Debug\net9.0\Dungeon_Crawler.sourcelink.json
+C:\GIT\Dungeon_Crawler\obj\Debug\net9.0\Dungeon_Crawler.dll
+C:\GIT\Dungeon_Crawler\obj\Debug\net9.0\refint\Dungeon_Crawler.dll
+C:\GIT\Dungeon_Crawler\obj\Debug\net9.0\Dungeon_Crawler.pdb
+C:\GIT\Dungeon_Crawler\obj\Debug\net9.0\Dungeon_Crawler.genruntimeconfig.cache
+C:\GIT\Dungeon_Crawler\obj\Debug\net9.0\ref\Dungeon_Crawler.dll
