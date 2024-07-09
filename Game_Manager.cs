@@ -16,12 +16,16 @@ namespace Dungeon_Crawler
         string button = "3";
         int X = 0;
         int Y = 0;
-
+        List<Enemy> enemies = new List<Enemy>();
+        Random random = new Random();
+        int level_Num = 1;
+        
 
         public void StartGame()
         {
-            
-            maps = current_Map.Map_Loader(1);
+            enemies.Add(cyclops);
+            enemies.Add(skeleton);
+            maps = current_Map.Map_Loader(level_Num);
             current_Map.Draw(maps);
             Console.WriteLine("Game Started");
             for (int i = 0; i < maps.Length; i++)
@@ -40,6 +44,7 @@ namespace Dungeon_Crawler
 
         public void Run_Game()
         {
+            start:
             bool gameover = false;
             while(!gameover)
             {
@@ -47,6 +52,7 @@ namespace Dungeon_Crawler
                 {
                     for (int j = 0; j < maps[i].Length; j++)
                     {
+
                         if (maps[i][j] == 'P')
                         {
                             X = i;
@@ -54,19 +60,28 @@ namespace Dungeon_Crawler
                         }
                     }
                 }
-                player.Controll_Settings(maps, X, Y, 1);
-                if(button == "2")
+                player.Controll_Settings(maps, X, Y,ref level_Num);
+                if(player.isDoor == true)
                 {
                     if (File.Exists(@"C:\Git\Dungeon_Master\level2.txt"))
                     {
-                        current_Map = new Map(2);
-                        maps = current_Map.Map_Loader(2);
+                        current_Map = new Map(level_Num);
+                        maps = current_Map.Map_Loader(level_Num);
                         gameover = true;
                         Thread.Sleep(1000);
+                        player.isDoor = false;
+                        goto start;
                     }
                     
                 }
+                if(player.isEnemy == true)
+                {
+                    Battle_Manager battle = new Battle_Manager();
+                    battle.Battle_Operator(player, enemies[random.Next(0,enemies.Count)]);
+                    player.isEnemy = false;
+                }
                 Console.Clear();
+                Console.WriteLine($"Level: {level_Num}");
                 current_Map.Draw(maps);
                 player.Player_Stats();
             }

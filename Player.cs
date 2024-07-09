@@ -17,6 +17,9 @@ namespace Dungeon_Crawler
         public string Weapon { get; set; }
         public int Key_Count { get; set; }
 
+        public bool isDoor = false;
+        public bool isEnemy = false;
+
         public Player(int hp, int damage, string suit, string weapon, int key_Count) :base (hp, damage)
         {
             this.Suit = suit;
@@ -24,7 +27,7 @@ namespace Dungeon_Crawler
             this.Key_Count = key_Count;
         }
 
-        public void Controll_Settings(char[][] actual_Level, int coordinate_X, int coordinate_Y, int level)
+        public void Controll_Settings(char[][] actual_Level, int coordinate_X, int coordinate_Y,ref int level)
         {
             ConsoleKey ck = Console.ReadKey(true).Key;
 
@@ -91,13 +94,13 @@ namespace Dungeon_Crawler
             }
             else if (actual_Level[coordinate_X][coordinate_Y] == 'E')
             {
-                battle = true;
+                isEnemy = true;
                 actual_Level[old_X][old_Y] = 'X';
                 actual_Level[coordinate_X][coordinate_Y] = 'P';
-                HP -= 25;
             }
             else if (actual_Level[coordinate_X][coordinate_Y] == 'D')
             {
+                isDoor = true;
                 actual_Level[old_X][old_Y] = 'X';
                 actual_Level[coordinate_X][coordinate_Y] = 'P';
                 Key_Count--;
