@@ -16,18 +16,16 @@ namespace Dungeon_Crawler
         string button = "3";
         int X = 0;
         int Y = 0;
-        List<Enemy> enemies = new List<Enemy>();
         Random random = new Random();
         int level_Num = 1;
         
 
         public void StartGame()
         {
-            enemies.Add(cyclops);
-            enemies.Add(skeleton);
-            maps = current_Map.Map_Loader(level_Num);
+            maps = current_Map.Map_Loader(level_Num); 
+            Console.WriteLine($"Level: {level_Num}");
             current_Map.Draw(maps);
-            Console.WriteLine("Game Started");
+            player.Player_Stats();
             for (int i = 0; i < maps.Length; i++)
             {
                 for (int j = 0; j < maps[i].Length; j++)
@@ -39,7 +37,6 @@ namespace Dungeon_Crawler
                     }
                 }
             }
-            Thread.Sleep(1000);
         }
 
         public void Run_Game()
@@ -76,6 +73,9 @@ namespace Dungeon_Crawler
                 }
                 if(player.isEnemy == true)
                 {
+                    List<Enemy> enemies = new List<Enemy>();
+                    enemies.Add(new Enemy(50, 15, "Bone", "Sword", "Skeleton"));
+                    enemies.Add(new Enemy(70, 25, "Leather", "Axe", "Cyclops"));
                     Battle_Manager battle = new Battle_Manager();
                     battle.Battle_Operator(player, enemies[random.Next(0,enemies.Count)]);
                     player.isEnemy = false;

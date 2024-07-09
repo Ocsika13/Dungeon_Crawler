@@ -17,7 +17,7 @@ namespace Dungeon_Crawler
                 Console.WriteLine($"Player HP: {player.HP}              Enemy HP: {enemy.HP}");
                 Console.WriteLine($"Player Damage: {player.Damage}      Enemy Damage: {enemy.Damage}");
                 Console.WriteLine("Press (A)ttack (D)efense");
-                string choosed = Console.ReadLine();
+                string choosed = Console.ReadLine().ToUpper();
                 if( choosed == "A")
                 {
                     enemy.HP -= player.Damage;
