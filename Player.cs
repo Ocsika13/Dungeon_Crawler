@@ -98,7 +98,7 @@ namespace Dungeon_Crawler
                 actual_Level[old_X][old_Y] = 'X';
                 actual_Level[coordinate_X][coordinate_Y] = 'P';
             }
-            else if (actual_Level[coordinate_X][coordinate_Y] == 'D')
+            else if (Key_Count > 0 && actual_Level[coordinate_X][coordinate_Y] == 'D')
             {
                 isDoor = true;
                 actual_Level[old_X][old_Y] = 'X';

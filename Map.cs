@@ -18,7 +18,7 @@ namespace Dungeon_Crawler
         public char[][] Map_Loader(int level_Num)
         {
             string[] level_Lines;
-            level_Lines = File.ReadAllLines(@"C:\Git\Dungeon_Master\level" + $"{level_Num}.txt");
+            level_Lines = File.ReadAllLines($"Level{level_Num}.txt");
             map = new char[level_Lines.Length][];
             for (int i = 0; i < level_Lines.Length; i++)
             {

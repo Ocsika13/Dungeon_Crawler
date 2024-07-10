@@ -60,7 +60,7 @@ namespace Dungeon_Crawler
                 player.Controll_Settings(maps, X, Y,ref level_Num);
                 if(player.isDoor == true)
                 {
-                    if (File.Exists(@"C:\Git\Dungeon_Master\level2.txt"))
+                    if (File.Exists($@"C:\Git\Dungeon_Master\level{level_Num}.txt"))
                     {
                         current_Map = new Map(level_Num);
                         maps = current_Map.Map_Loader(level_Num);
