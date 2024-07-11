@@ -13,6 +13,7 @@ namespace Dungeon_Crawler
         Enemy cyclops = new Enemy(70, 25, "Leather", "Axe", "Cyclops");
         Map current_Map = new Map(1);
         char[][] maps;
+        
         string button = "3";
         int X = 0;
         int Y = 0;
@@ -41,9 +42,10 @@ namespace Dungeon_Crawler
 
         public void Run_Game()
         {
+            
+            bool gameover = true;
             start:
-            bool gameover = false;
-            while(!gameover)
+            while(gameover)
             {
                 for (int i = 0; i < maps.Length; i++)
                 {
@@ -60,14 +62,19 @@ namespace Dungeon_Crawler
                 player.Controll_Settings(maps, X, Y,ref level_Num);
                 if(player.isDoor == true)
                 {
-                    if (File.Exists($@"C:\Git\Dungeon_Master\level{level_Num}.txt"))
+                    if (File.Exists($"Level" + $"{level_Num}" + ".txt"))
                     {
                         current_Map = new Map(level_Num);
                         maps = current_Map.Map_Loader(level_Num);
-                        gameover = true;
                         Thread.Sleep(1000);
                         player.isDoor = false;
                         goto start;
+                    }
+                    else
+                    {
+                        gameover = false;
+                        Console.Clear();
+                        goto end;
                     }
                     
                 }
@@ -85,6 +92,8 @@ namespace Dungeon_Crawler
                 current_Map.Draw(maps);
                 player.Player_Stats();
             }
+            end:
+            Console.WriteLine("YOU WIN FIND THE LAST DOOR!!!!!!!");
         }
     }
 }
